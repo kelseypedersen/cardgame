@@ -15,6 +15,7 @@
 		A8AF012F1B41DEF000E5054C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AF012D1B41DEF000E5054C /* LaunchScreen.xib */; };
 		A8AF013B1B41DEF000E5054C /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AF013A1B41DEF000E5054C /* CardGameTests.m */; };
 		A8FF254B1B41F2FA00839D8C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FF254A1B41F2FA00839D8C /* Card.m */; };
+		A8FF254F1B41F4C000839D8C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FF254E1B41F4C000839D8C /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A8AF013A1B41DEF000E5054C /* CardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameTests.m; sourceTree = "<group>"; };
 		A8FF25491B41F2FA00839D8C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		A8FF254A1B41F2FA00839D8C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		A8FF254D1B41F4C000839D8C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		A8FF254E1B41F4C000839D8C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				A8FF25491B41F2FA00839D8C /* Card.h */,
 				A8FF254A1B41F2FA00839D8C /* Card.m */,
+				A8FF254D1B41F4C000839D8C /* Deck.h */,
+				A8FF254E1B41F4C000839D8C /* Deck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FF254F1B41F4C000839D8C /* Deck.m in Sources */,
 				A8AF01271B41DEF000E5054C /* ViewController.m in Sources */,
 				A8AF01241B41DEF000E5054C /* AppDelegate.m in Sources */,
 				A8AF01211B41DEF000E5054C /* main.m in Sources */,
