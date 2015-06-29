@@ -14,7 +14,6 @@
 		A8AF012C1B41DEF000E5054C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AF012B1B41DEF000E5054C /* Images.xcassets */; };
 		A8AF012F1B41DEF000E5054C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AF012D1B41DEF000E5054C /* LaunchScreen.xib */; };
 		A8AF013B1B41DEF000E5054C /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AF013A1B41DEF000E5054C /* CardGameTests.m */; };
-		A8FF253D1B41E76200839D8C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FF253C1B41E76200839D8C /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		A8AF01341B41DEF000E5054C /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AF01391B41DEF000E5054C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8AF013A1B41DEF000E5054C /* CardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameTests.m; sourceTree = "<group>"; };
-		A8FF253C1B41E76200839D8C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = CardGame/Model/Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +123,6 @@
 		A8FF253E1B41E7CA00839D8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A8FF253C1B41E76200839D8C /* Card.m */,
 			);
 			name = Model;
 			path = ..;
@@ -234,7 +231,6 @@
 				A8AF01271B41DEF000E5054C /* ViewController.m in Sources */,
 				A8AF01241B41DEF000E5054C /* AppDelegate.m in Sources */,
 				A8AF01211B41DEF000E5054C /* main.m in Sources */,
-				A8FF253D1B41E76200839D8C /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
