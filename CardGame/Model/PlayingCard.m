@@ -7,6 +7,11 @@
 
 #import "PlayingCard.h"
 
+// YOU ROCK, KELSEY!
+// YOU ROCK, KELSEY!
+// YOU ROCK, KELSEY!
+// YOU ROCK, KELSEY!
+
 @implementation PlayingCard
 
 // Overriding the implementation of the contents method in the Card model
@@ -27,6 +32,8 @@
 // Creates instance variable for the property, suit
 // _suit is the instance variable
 
+// KEEP IT UP, K$!
+
 @synthesize suit = _suit;
 
 // Class method (+)
@@ -42,6 +49,8 @@
         _suit = suit;
     }
 }
+
+// KILLIN IT, KELSEY!
 
 // Suit getter
 // Overriding the getter for suit to return "?" if nil
