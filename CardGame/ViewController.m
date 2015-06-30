@@ -10,19 +10,38 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
+@property (nonatomic) int flipCount;
 
 @end
 
+
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)setFlipCount:(int)flipCount {
+    _flipCount = flipCount;
+    self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
+    NSLog(@"FlipCount changed to %d", self.flipCount);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// The name of the method, touchCardButton:, includes the semi-colon!
+// IBAction returns void, uses IBAction instead of void so xcode knows its an action method, not just a regular method
+- (IBAction)touchCardButton:(UIButton *)sender {
+    
+    // Chill way to check because works for nil and @""
+    if ([sender.currentTitle length]) {
+
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardback"]
+                              forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:UIControlStateNormal];
+    } else {
+
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
+                              forState:UIControlStateNormal];
+        [sender setTitle:@"A♣️" forState:UIControlStateNormal];
+    }
+    self.flipCount++;
+    
 }
 
 @end
