@@ -1,6 +1,4 @@
-# Card Game
-
-## Stanford 193P Lecture
+# Card Game - Stanford 193P Lecture
 
 ### Monday, June 29th
 
