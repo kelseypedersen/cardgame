@@ -23,3 +23,14 @@
 - How do you determine if something is a class or instance method? Still do not clearly understand why validSuits and maxRank are class methods. 
 - How does (instancetype)init work in the PlayingCardDeck.m file? In the lecture, the professor stated it was only used to test if you can initialize the superclass. Would it still work if you substitute self for another variable name, or does self hold unique meaning for this situation?
 ```
+
+## Tuesday, June 30th
+
+**What I Learned Today**
+```
+
+```
+
+**Questions I still have**
+```
+```
