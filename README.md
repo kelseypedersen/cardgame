@@ -4,7 +4,7 @@
 
 ### Monday, June 29th
 
-#### What I Learned Today
+**What I Learned Today**
 ```
 - Create xcode project setup
 - Connect project to Github
@@ -16,7 +16,7 @@
 - Use @synthesize when implementing both getter and setter for a property
 ```
 
-#### Questions I still have
+**Questions I still have**
 ```
 - Why is the cards property defined in the implementation file not the header file? Does it have something to do with being private vs. public? 
 - What is unsigned? e.g. unsigned index in deck.m
