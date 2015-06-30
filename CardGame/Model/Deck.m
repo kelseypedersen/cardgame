@@ -1,4 +1,3 @@
-//
 //  Deck.m
 //  CardGame
 //
@@ -31,7 +30,7 @@
 - (void)addCard:(Card *)card atTop:(BOOL)atTop {
     if (atTop) {
         [self.cards insertObject:card atIndex:0];
-    // With the NSMutableArray being initialized above in the NSMutableArray cards, the cards property will always at least be an empty mutable array so thiswill always work. Without the if statement above, this object returned by self.cards never gets created.
+        // With the NSMutableArray being initialized above in the NSMutableArray cards, the cards property will always at least be an empty mutable array so thiswill always work. Without the if statement above, this object returned by self.cards never gets created.
     } else {
         [self.cards addObject:card];
     }
@@ -48,7 +47,7 @@
     
     // Protecting against an argument of zero, which will crash the program
     if ([self.cards count]) {
-    // arc4random() returns a random integer
+        // arc4random() returns a random integer
         unsigned index = arc4random() % [self.cards count];
         randomCard = self.cards[index];
         [self.cards removeObjectAtIndex:index];
@@ -58,3 +57,4 @@
 
 
 @end
+
