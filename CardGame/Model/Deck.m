@@ -8,15 +8,12 @@
 #import "Deck.h"
 
 @interface Deck()
-
 // Creating array to store deck of cards
 @property (strong, nonatomic) NSMutableArray *cards;
-
 @end
 
 
 @implementation Deck
-
 
 // This heap allocation (queued storage) is in the getter method for the cards @property
 

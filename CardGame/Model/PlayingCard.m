@@ -7,11 +7,6 @@
 
 #import "PlayingCard.h"
 
-// YOU ROCK, KELSEY!
-// YOU ROCK, KELSEY!
-// YOU ROCK, KELSEY!
-// YOU ROCK, KELSEY!
-
 @implementation PlayingCard
 
 // Overriding the implementation of the contents method in the Card model
