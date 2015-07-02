@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82883B41B45F45E003BF2C1 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A82883B31B45F45E003BF2C1 /* CardMatchingGame.m */; };
 		A8AF01211B41DEF000E5054C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AF01201B41DEF000E5054C /* main.m */; };
 		A8AF01241B41DEF000E5054C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AF01231B41DEF000E5054C /* AppDelegate.m */; };
 		A8AF01271B41DEF000E5054C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AF01261B41DEF000E5054C /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A82883B21B45F45E003BF2C1 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		A82883B31B45F45E003BF2C1 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 		A8AF011B1B41DEF000E5054C /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AF011F1B41DEF000E5054C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8AF01201B41DEF000E5054C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 		A8FF254C1B41F30E00839D8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A82883B21B45F45E003BF2C1 /* CardMatchingGame.h */,
+				A82883B31B45F45E003BF2C1 /* CardMatchingGame.m */,
 				A8FF25491B41F2FA00839D8C /* Card.h */,
 				A8FF254A1B41F2FA00839D8C /* Card.m */,
 				A8FF25591B4214A300839D8C /* Deck.h */,
@@ -251,6 +256,7 @@
 				A8FF255B1B4214A300839D8C /* Deck.m in Sources */,
 				A8FF25581B42144A00839D8C /* PlayingCard.m in Sources */,
 				A8AF01241B41DEF000E5054C /* AppDelegate.m in Sources */,
+				A82883B41B45F45E003BF2C1 /* CardMatchingGame.m in Sources */,
 				A8FF25551B42115C00839D8C /* PlayingCardDeck.m in Sources */,
 				A8AF01211B41DEF000E5054C /* main.m in Sources */,
 				A8FF254B1B41F2FA00839D8C /* Card.m in Sources */,
