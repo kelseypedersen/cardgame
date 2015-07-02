@@ -49,7 +49,7 @@
         NSLog(@"Card: %@", card.contents);
         [sender setBackgroundImage: [UIImage imageNamed:@"cardfront"]
                           forState: UIControlStateSelected];
-        
+        [sender setTitleColor:[UIColor blackColor] forState:UIControlStateSelected];
         [sender setTitle:card.contents forState:UIControlStateSelected];
         self.flipCount++;
     }
