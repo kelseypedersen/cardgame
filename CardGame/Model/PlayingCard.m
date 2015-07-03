@@ -13,6 +13,21 @@
 // But, not re-declaring the contents property in card.h
 // Inherit that declaration from the Card superclass
 
+// Overriding card match method
+- (int)match:(NSArray *)otherCards
+{
+    int score = 0;
+    if ([otherCards count] == 1) {
+        PlayingCard *otherCard = [otherCards firstObject];
+        if ([self.suit isEqualToString:otherCard.suit]) {
+            score = 1;
+        } else if(self.rank == otherCard.rank){
+            score = 4;
+        }
+    }
+    return score;
+}
+
 - (NSString *)contents
 {
     // Use the @ notation to create an array and constants
