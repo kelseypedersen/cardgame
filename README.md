@@ -24,13 +24,24 @@
 - How does (instancetype)init work in the PlayingCardDeck.m file? In the lecture, the professor stated it was only used to test if you can initialize the superclass. Would it still work if you substitute self for another variable name, or does self hold unique meaning for this situation?
 ```
 
-## Tuesday, June 30th
+## Thursday, July 2nd
 
 **What I Learned Today**
 ```
-
+- Every component of the app belongs in a model, e.g. the game
+- Use 'static const int' to define constants above the method
+- Override superclasses methods
+- Set background images and titles in the controller
+- Count is 32bit and integer is 64bit
+- Set properties as readonly
+- Create array collections (cards on the view)
 ```
 
 **Questions I still have**
 ```
+- Difference between UIControlStateNormal and UIControlStateSelected
+- Creation of unique init methods
+- Why use readonly
+- Use of self: not always sure what self is referencing
+- Use of NSInteger and NSUInteger
 ```
