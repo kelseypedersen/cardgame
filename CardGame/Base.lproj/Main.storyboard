@@ -215,7 +215,22 @@
                         <color key="backgroundColor" red="0.84705889225006104" green="0.97647064924240112" blue="0.89803928136825562" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <connections>
-                        <outlet property="flipsLabel" destination="op6-Ig-qaQ" id="f2d-rR-kzj"/>
+                        <outletCollection property="cardButtons" destination="u5v-ua-6jC" id="XCa-yi-jq3"/>
+                        <outletCollection property="cardButtons" destination="h7T-kG-p3N" id="y4a-eF-4iq"/>
+                        <outletCollection property="cardButtons" destination="eIo-h1-lol" id="Z0K-DB-Z5I"/>
+                        <outletCollection property="cardButtons" destination="8eD-Ia-lGx" id="fch-W4-auO"/>
+                        <outletCollection property="cardButtons" destination="kaw-2m-hZA" id="mM3-9B-snM"/>
+                        <outletCollection property="cardButtons" destination="a1v-1W-k8m" id="F9j-Uy-crV"/>
+                        <outletCollection property="cardButtons" destination="rOa-mD-KEE" id="2j4-EJ-Byq"/>
+                        <outletCollection property="cardButtons" destination="KKU-by-PDQ" id="CV1-1H-y4A"/>
+                        <outletCollection property="cardButtons" destination="F6o-7M-nhd" id="TTy-gh-OBW"/>
+                        <outletCollection property="cardButtons" destination="mi1-Oe-o9z" id="k9F-pq-8it"/>
+                        <outletCollection property="cardButtons" destination="B1E-fL-VKl" id="bOg-cF-Cdz"/>
+                        <outletCollection property="cardButtons" destination="Shs-hm-xX7" id="ReY-Gk-9q8"/>
+                        <outletCollection property="cardButtons" destination="1ga-AE-En0" id="Kfa-0v-0g9"/>
+                        <outletCollection property="cardButtons" destination="5sW-Ib-R7r" id="DUg-AZ-NrH"/>
+                        <outletCollection property="cardButtons" destination="dQQ-Gm-ImQ" id="UsS-Ne-8bO"/>
+                        <outletCollection property="cardButtons" destination="Asb-hc-9GL" id="VaW-8H-ImR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
