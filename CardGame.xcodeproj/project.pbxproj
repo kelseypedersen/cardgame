@@ -138,8 +138,6 @@
 		A8FF254C1B41F30E00839D8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A82883B21B45F45E003BF2C1 /* CardMatchingGame.h */,
-				A82883B31B45F45E003BF2C1 /* CardMatchingGame.m */,
 				A8FF25491B41F2FA00839D8C /* Card.h */,
 				A8FF254A1B41F2FA00839D8C /* Card.m */,
 				A8FF25591B4214A300839D8C /* Deck.h */,
@@ -148,6 +146,8 @@
 				A8FF25571B42144A00839D8C /* PlayingCard.m */,
 				A8FF25531B42115C00839D8C /* PlayingCardDeck.h */,
 				A8FF25541B42115C00839D8C /* PlayingCardDeck.m */,
+				A82883B21B45F45E003BF2C1 /* CardMatchingGame.h */,
+				A82883B31B45F45E003BF2C1 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";

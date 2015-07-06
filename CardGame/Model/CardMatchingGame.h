@@ -14,6 +14,11 @@
 - (instancetype)initWithCardCount:(NSUInteger)count usingDeck:(Deck *)deck;
 
 @property (nonatomic, readonly) NSInteger score;
+@property (strong, nonatomic) NSString *status;
+
+- (instancetype)initWithCardCount:(NSUInteger)count
+                        usingDeck:(Deck *)deck
+          numberOfCardsToPlayWith:(NSInteger)numberOfCardsToPlayWith;
 
 - (void)chooseCardAtIndex:(NSUInteger)index;
 - (Card *)cardAtIndex:(NSUInteger)index;

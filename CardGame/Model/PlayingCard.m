@@ -25,12 +25,24 @@
             score = 4;
         }
     }
+    
+    NSMutableArray *otherCardsCollectionForComparison = [otherCards mutableCopy];
+    for (PlayingCard *otherCard in otherCards){
+        [otherCardsCollectionForComparison removeObject:otherCard];
+        for (PlayingCard *otherCardInOtherCardsCollection in otherCardsCollectionForComparison){
+            if (otherCard.rank == otherCardInOtherCardsCollection.rank){
+                score += 4;
+            } else if ([otherCard.suit isEqualToString:otherCardInOtherCardsCollection.suit]){
+                score += 1;
+            }
+        }
+    }
+    
     return score;
 }
 
 - (NSString *)contents
 {
-    // Use the @ notation to create an array and constants
     // @[ ... ] === via the conpiler ===> [[NSArray alloc] initWithObjects:...].
     // rankStrings[self.rank] === via the conpiler ===> [rankStrings objectAtIndexedSubscript:self.rank]
     
@@ -42,7 +54,10 @@
 // Creates instance variable for the property, suit
 // _suit is the instance variable
 
-// KEEP IT UP, K$!
+
+
+
+
 
 @synthesize suit = _suit;
 
