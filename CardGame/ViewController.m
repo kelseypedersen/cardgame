@@ -52,11 +52,11 @@
 - (IBAction)chooseMatchMode:(UISegmentedControl *)sender {
     if (sender.selectedSegmentIndex == 1){
         self.numberOfCardsToPlayWith = 3;
-        self.matchModeLabel.text = @"Match Model is 3 cards!";
+        self.matchModeLabel.text = @"Match Model: 3 cards!";
         NSLog(@"Value of mode changed to 3");
     }else{
         self.numberOfCardsToPlayWith = 2;
-        self.matchModeLabel.text = @"Match Model is 2 cards!";
+        self.matchModeLabel.text = @"Match Model: 2 cards!";
         NSLog(@"Value of mode changed to 3");
     }
 }
@@ -127,7 +127,7 @@
         cardButton.enabled = !card.isMatched;
     }
     self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
-//    self.statusLabel.text = self.game.status;
+    self.statusLabel.text = self.game.status;
 }
 
 
