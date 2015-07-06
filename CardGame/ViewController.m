@@ -48,7 +48,8 @@
 }
 
 
-- (IBAction)changeModeSelector:(UISegmentedControl *)sender {
+
+- (IBAction)chooseMatchMode:(UISegmentedControl *)sender {
     if (sender.selectedSegmentIndex == 1){
         self.numberOfCardsToPlayWith = 3;
         self.matchModeLabel.text = @"Match Model is 3 cards!";
@@ -59,8 +60,6 @@
         NSLog(@"Value of mode changed to 3");
     }
 }
-
-
 
 
 

@@ -220,6 +220,9 @@
                                     <segment title="Three Cards"/>
                                 </segments>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="chooseMatchMode:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ihn-Og-KKl"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match Mode: 2-Cards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ocg-qf-tQd">
                                 <rect key="frame" x="26" y="69" width="268" height="21"/>
@@ -249,7 +252,6 @@
                         <color key="backgroundColor" red="0.84705889225006104" green="0.97647064924240112" blue="0.89803928136825562" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <connections>
-                        <outlet property="matchModeControl" destination="tH6-eG-ywq" id="Ywn-JW-S8q"/>
                         <outlet property="matchModeLabel" destination="ocg-qf-tQd" id="pHu-pL-egJ"/>
                         <outlet property="scoreLabel" destination="KFJ-fs-WbW" id="3gx-Qn-3I3"/>
                         <outlet property="statusLabel" destination="ZYz-3y-uwa" id="LpY-zx-3jF"/>
