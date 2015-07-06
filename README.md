@@ -45,3 +45,28 @@
 - Use of self: not always sure what self is referencing
 - Use of NSInteger and NSUInteger
 ```
+
+## Sunday, July 5th
+
+**What I Learned Today**
+```
+- There's such a thing as custom initializers! So awesome.
+- firstObjects (similar to .first in ruby) - returns the first object in an array
+- Use of alerts!
+- Importance of not changing the IBAction/Outlet links in the viewController, or they will not work
+- Use of NSMutableCopy in copying an array (that you want to change)
+- isEqualToString is pretty sweet
+- How to write a method to disable the program when the remaining cards do not match
+- UISegmentedControl
+
+```
+
+**Questions I still have**
+```
+- the _methodname syntax - does this indicate an instantiated object or instance variable?
+- The difference between self.methodName and self methodName
+- In properties, why NSStrings have * in front of them vs. NSIntegers do not - I know it has something to do with being a pointer, but want to dive into this deeper.
+- The use of count to determine if an array is empty or not - What are other ways to do this? 
+- Why would you use isEqualToString instead of "=="?
+
+```
