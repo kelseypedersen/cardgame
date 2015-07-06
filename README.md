@@ -52,7 +52,7 @@
 ```
 - There's such a thing as custom initializers! So awesome.
 - firstObjects (similar to .first in ruby) - returns the first object in an array
-- Use of alerts!
+- How to create alerts!
 - Importance of not changing the IBAction/Outlet links in the viewController, or they will not work
 - Use of NSMutableCopy in copying an array (that you want to change)
 - isEqualToString is pretty sweet
