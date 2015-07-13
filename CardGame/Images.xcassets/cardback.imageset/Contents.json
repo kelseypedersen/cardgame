@@ -3,16 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "stanford.png"
+      "filename" : "Cal-Bear-1.jpg"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "calbearshi-res.png"
+      "filename" : "Cal-Bear.jpg"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "stanford.png"
     }
   ],
   "info" : {

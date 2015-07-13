@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Deck.h"
+
+// Abstract class. Must implement methods as described below.
 
 @interface ViewController : UIViewController < UIAlertViewDelegate >
+
+// for subclasses
+- (Deck *)createDeck; // abstract
+
 
 
 @end
