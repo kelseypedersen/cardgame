@@ -253,6 +253,7 @@
                         <color key="backgroundColor" red="0.63434166301027373" green="0.84193155487671334" blue="0.86440577651515149" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="matchModeControl" destination="tH6-eG-ywq" id="P6T-mZ-cTT"/>
                         <outlet property="matchModeLabel" destination="ocg-qf-tQd" id="pHu-pL-egJ"/>
                         <outlet property="scoreLabel" destination="KFJ-fs-WbW" id="3gx-Qn-3I3"/>
                         <outlet property="statusLabel" destination="ZYz-3y-uwa" id="LpY-zx-3jF"/>
