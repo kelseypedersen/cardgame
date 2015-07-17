@@ -70,3 +70,16 @@
 - Why would you use isEqualToString instead of "=="?
 
 ```
+
+## Thursday, July 16
+
+**What I Learned Today**
+```
+- Make sure your custom viewControllers are attached to the storyboard custom class
+- Make sure all the outlets are still active (filled in dot vs. empty dot)
+```
+
+**Questions I still have**
+```
+- Whats the difference between returning instancetype and id?
+```
